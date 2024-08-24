@@ -1,0 +1,96 @@
+.elements {
+  margin: 50px auto 67px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 17px;
+}
+
+.elements__card {
+  height: 361px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  position: relative;
+}
+
+.elements__button-trash {
+  width: 18px;
+  height: 20px;
+  background: transparent url("../images/trash.png") no-repeat center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.elements__button-trash:hover {
+  opacity: 0.6;
+}
+
+.elements__image {
+  width: 282px;
+  height: 282px;
+  object-fit: cover;
+}
+
+.elements__group {
+  width: 246px;
+  height: 23px;
+  margin-top: 25px;
+  margin-left: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.elements__title {
+  max-width: 215px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.elements__like-button {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  background: transparent url("../images/like.png") no-repeat center;
+  border: none;
+  cursor: pointer;
+}
+
+.elements__like-button:hover {
+  opacity: 0.5;
+}
+
+.elements__like-button.active {
+  background-image: url("../images/like-active.png");
+}
+
+.elements__like-count {
+  margin-left: 254px;
+  color: #000;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .elements {
+    width: 85%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 683px) {
+  .elements {
+    width: 85%;
+    justify-content: center;
+  }
+}
