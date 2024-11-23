@@ -1,20 +1,43 @@
-Project: Registration and Authorization Front-End
+## 🚀 Project: Registration and Authorization Front-End
 
 This project is a front-end implementation for user registration and authorization, designed to be part of a web application. The focus of this project was on creating a user-friendly interface and secure handling of user data during the registration and login processes. Below is a detailed breakdown of the technologies used and the structure of the project.
 
-Technologies Used:
+## 🚀 Technologies
 
-React.js,React Router,Context API,useState, useEffect, useRef Hooks,Form Validation,API Integration, Image Assets, CSS
+This project was developed using the following technologies:
 
-How It Works
+- HTML
+- CSS
+- Responsiveness
+- JavaScript
+- React
+- OOP (Object-Oriented Programming)
+- Webpack, Babel, and PostCSS
+- API Consumption
+- Frontend Authentication, JWT
+- Git and GitHub
+- BEM Methodology
 
-Registration: Users can register by filling out the form on the signup page. Upon successful registration, a modal displays a success message, and the user is redirected to the login page.
-Login: Registered users can log in using their email and password. Successful login stores the JWT token in local storage and grants access to protected routes.
-Protected Routes: Once logged in, users can access protected areas of the application, with their session maintained using the JWT token.
-User Context: The application uses Context API to manage and access the logged-in user's data across different components, ensuring that the UI updates dynamically based on the user's state.
+## 🧪 Improvements
 
-Conclusion:
+Some improvements that can be applied:
 
-This project showcases the implementation of a registration and authorization system using modern front-end technologies. By leveraging React's component-based architecture, Context API, and hooks, the project ensures a scalable, maintainable, and user-friendly application.
+- Animation on some page elements to make it more dynamic and interactive
 
-For any questions or further clarifications, feel free to reach out.
+## ⚙ Instructions to run locally
+
+First, clone the repository to your computer.
+
+Make sure you have Node installed on your computer in its latest version. Open the terminal in the cloned repository directory and run the command to install all dependencies:
+
+```bash
+npm install
+```
+
+After all dependencies are installed, run the command to start the development server:
+
+```bash
+npm start
+```
+
+If everything went well, the server is ready to use. If the browser does not open automatically, access the local address in your browser on port 3000: http://localhost:3000
